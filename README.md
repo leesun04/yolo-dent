@@ -1,1 +1,1 @@
-# yolo-dentpose
+# yolo-dent
