@@ -1,0 +1,9 @@
+#차 손상 감지 모델 학습을 위한 데이터 설정 파일
+path: /mnt/nas4/lsj/Tire-test/Tire-dataset # 이건 너의 루트 폴더 경로
+train: images/train
+val: images/val
+
+kpt_shape: [4, 3]  # 타이어의 상하 좌우 키포인트 = 4개, (x, y, visible)
+
+names:
+  0: tire
